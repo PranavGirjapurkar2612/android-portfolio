@@ -4,6 +4,15 @@
 
 I'm pursuing an MBA in Digital Marketing at Amity University, where I completed my BBA. My background includes social media and content work at Brand Orbits and customer operations at Cognizant. I use SQL to explore data and summarize it for reports, and I explore Android app modding through interface design, APK packaging, and crash diagnostics.
 
+## APK downloads
+
+| App | Version | APK |
+| --- | --- | --- |
+| REA Pocket UI | 1.0.1 | [Download APK](https://github.com/PranavGirjapurkar2612/android-portfolio/releases/download/rea-pocket-ui-v1.0.1/REA-Pocket-UI-1.0.1.apk) |
+| m314 Flow | 1.1.0 | [Download APK](https://github.com/PranavGirjapurkar2612/android-portfolio/releases/download/android-apps-2026-11-17/m314-Flow-1.1.0.apk) |
+| CineFlow | 1.7.0 | [Download APK](https://github.com/PranavGirjapurkar2612/android-portfolio/releases/download/android-apps-2026-11-17/CineFlow-1.7.0.apk) |
+| Cinedubs | 1.0.52 | [Download APK](https://github.com/PranavGirjapurkar2612/android-portfolio/releases/download/android-apps-2026-11-17/Cinedubs-1.0.52.apk) |
+
 ## Selected Android projects
 
 | Project | What it does | Stack visible in the build |
