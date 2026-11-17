@@ -6,23 +6,25 @@ I'm pursuing an MBA in Digital Marketing at Amity University, where I completed 
 
 ## APK downloads
 
-| App | Version | APK |
-| --- | --- | --- |
-| REA Pocket UI | 1.0.1 | [Download APK](https://github.com/PranavGirjapurkar2612/android-portfolio/releases/download/rea-pocket-ui-v1.0.1/REA-Pocket-UI-1.0.1.apk) |
-| m314 Flow | 1.1.0 | [Download APK](https://github.com/PranavGirjapurkar2612/android-portfolio/releases/download/android-apps-2026-11-17/m314-Flow-1.1.0.apk) |
-| CineFlow | 1.7.0 | [Download APK](https://github.com/PranavGirjapurkar2612/android-portfolio/releases/download/android-apps-2026-11-17/CineFlow-1.7.0.apk) |
-| Cinedubs | 1.0.52 | [Download APK](https://github.com/PranavGirjapurkar2612/android-portfolio/releases/download/android-apps-2026-11-17/Cinedubs-1.0.52.apk) |
-| Airtel | 4.154.3 | [Download APK](https://github.com/PranavGirjapurkar2612/android-portfolio/releases/download/android-apps-2026-11-17/Airtel-4.154.3.apk) |
+The catalog lists all 15 supplied builds. The project write-ups contain feature details, tech stacks, and upstream credits.
 
-## Selected Android projects
-
-| Project | What it does | Stack visible in the build |
-| --- | --- | --- |
-| **REA Pocket UI** | Brings REA's local file analysis workflows to an Android workspace. | Java, Node.js, JavaScript and TypeScript tooling |
-| **Vine Studio** | Turns media discovery, track selection, queued jobs, and saved files into a mobile workflow. | Java, HTML/CSS/JavaScript, embedded Python and Node.js |
-| **m314 Flow** | Gives open-source stream engines an Android interface for imports, downloads, and live recordings. | Java, HTML/CSS/JavaScript, m314dl (Go), VSD (Rust), FFmpeg |
-| **CineFlow** | An independent MovieBox client with catalog discovery, playback controls, and an offline library. | Java, AndroidX Media3 |
-| **DASH-DL** | Organizes media transfers, engine presets, and job diagnostics on Android. | Java, HTML/CSS/JavaScript, embedded Python and native media tools |
+| App | Version | Features and changes | GitHub entry |
+| --- | --- | --- | --- |
+| Airtel | 4.154.3 | Kotlin and React Native build with a verified APK archive and signature. | [Download APK](https://github.com/PranavGirjapurkar2612/android-portfolio/releases/download/android-apps-2026-11-17/Airtel-4.154.3.apk) |
+| CineFlow | 1.7.0 | Independent MovieBox client with catalog search, playback controls, and an offline library. | [Download APK](https://github.com/PranavGirjapurkar2612/android-portfolio/releases/download/android-apps-2026-11-17/CineFlow-1.7.0.apk) |
+| Cinedubs | 1.0.52 | ARM64 build with a verified APK archive and signature. | [Download APK](https://github.com/PranavGirjapurkar2612/android-portfolio/releases/download/android-apps-2026-11-17/Cinedubs-1.0.52.apk) |
+| DASH-DL | 1.8.33 | Download queues, presets, diagnostics, and custom scripts. The project notes list integrations for Netflix, ZEE5, Sony LIV, and Hotstar. | [Write-up](#android-project-write-ups) |
+| JioHotstar | 26.10.12.2 | ARM64 target build supplied for Android packaging review. | [Write-up](#android-project-write-ups) |
+| JioHotstar Modder | 2.6 | Reported changes to ad-related screens and recurring pop-ups. | [Write-up](#android-project-write-ups) |
+| m314 Flow | 1.1.0 | Playlist and manifest import, track selection, batch jobs, live recording, and segment merging. | [Download APK](https://github.com/PranavGirjapurkar2612/android-portfolio/releases/download/android-apps-2026-11-17/m314-Flow-1.1.0.apk) |
+| PatchLens | 2.3.8 | APK inspection, resource optimization, and output verification. Profiles include Comparify, ZEE5, Pocket Films, and Tincat. | [Write-up](#android-project-write-ups) |
+| Pawxy | 1.15.1 | Requested banner-ad removal and changes to VPN and premium limits. | [Write-up](#android-project-write-ups) |
+| Prime Video Clone | 3.0.477.1447 | Separate Android package with reported ad removal and certificate-pinning changes. | [Write-up](#android-project-write-ups) |
+| REA Pocket UI | 1.0.1 | Local APK, archive, and binary analysis with REA tools, hex and string views, and report export. | [Download APK](https://github.com/PranavGirjapurkar2612/android-portfolio/releases/download/rea-pocket-ui-v1.0.1/REA-Pocket-UI-1.0.1.apk) |
+| Sony LIV | 6.38.20 | Reported preview-access changes, ad removal, and certificate-pinning changes. | [Write-up](#android-project-write-ups) |
+| Tincat Pro | 5.3.1-iptv4.6 | Reported premium entitlement changes and support for IPTV and encrypted MPEG-DASH (MPD/CENC) playlists. | [Write-up](#android-project-write-ups) |
+| Vine Studio | 1.0.1 | Provider and episode discovery, track selection, queued jobs, and a local media library. | [Write-up](#android-project-write-ups) |
+| ZEE5 | 39.63.3 | Reported ad removal and certificate-pinning changes. | [Write-up](#android-project-write-ups) |
 
 ## How I build
 
@@ -39,6 +41,8 @@ An independent Android adaptation of **REA (Reverse Engineer Anything)**. **Work
 - Inspect APK and ZIP contents, native architectures, DEX files, and archive metadata. View file bytes in hex or search printable strings with their offsets.
 - Browse and star tools. The packaged catalog contains **255 entries** and the build ships an ARM64 Node.js runtime.
 - Start local jobs, revisit results and diagnostic reports, and export a report through Android's file picker.
+
+**Stack.** Java Android host and bundled ARM64 Node.js with JavaScript and TypeScript tooling.
 
 **Upstream REA.** The original project provides a CLI and an MCP interface for connecting its tools to AI assistants. It covers APK resources and signatures, native binaries through decompiler integrations, JavaScript and Electron bundles and source maps, .NET assemblies, and firmware. It also includes workflows for SQLite databases, WebAssembly, websites, and saved captures. Some workflows require desktop tooling or additional host dependencies.
 
@@ -70,6 +74,8 @@ Wraps established command-line media engines in an Android interface for choosin
 - Set video quality, subtitle output, video codec, and output container. Use local manifests or segment folders for merging workflows.
 - Start live recordings, follow progress, resume transfers, and review job diagnostics and saved files.
 - Configure broadcast output and server modes when working with streams authorized for redistribution.
+
+**Stack.** Java Android host and an HTML/CSS/JavaScript interface. The native tools include m314dl (Go), VSD (Rust), and FFmpeg.
 
 **Credits.** The archive bundles **m314dl**, **VSD**, and **FFmpeg**. [m314dl by m314](https://m314.dev/) · [VSD by clitic and contributors](https://github.com/clitic/vsd) · [FFmpeg project](https://ffmpeg.org/)
 
@@ -124,7 +130,7 @@ These entries describe packaging experiments and reported client changes. The la
 | **JioHotstar 26.10.12.2** | Inspected the target APK independently of the Modder tool. The package contains multi-DEX Android code and ARM64 libraries. | Kotlin metadata in app classes and the launcher. |
 | **Airtel 4.154.3** | Inspected the app package and identified its native Android and web-runtime layers. | Kotlin, React Native, and a Hermes JavaScript bundle. |
 | **Cinedubs 1.0.52** | Recorded the package, version, and ARM64 components for the submitted build. | Android JVM bytecode and native libraries. App source language is unconfirmed. |
-| **Pawxy 1.15.1** | Recorded the browser build, its launcher, and its native ARM64 payload. | Android JVM bytecode and native libraries. App source language is unconfirmed. |
+| **Pawxy 1.15.1** | Recorded the browser build, its launcher, and its native ARM64 payload. The requested changes included banner-ad removal and changes to VPN and premium limits. | Android JVM bytecode and native libraries. App source language is unconfirmed. |
 
 </details>
 
