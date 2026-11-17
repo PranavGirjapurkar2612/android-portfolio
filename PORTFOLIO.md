@@ -12,6 +12,7 @@ I'm pursuing an MBA in Digital Marketing at Amity University, where I completed 
 | m314 Flow | 1.1.0 | [Download APK](https://github.com/PranavGirjapurkar2612/android-portfolio/releases/download/android-apps-2026-11-17/m314-Flow-1.1.0.apk) |
 | CineFlow | 1.7.0 | [Download APK](https://github.com/PranavGirjapurkar2612/android-portfolio/releases/download/android-apps-2026-11-17/CineFlow-1.7.0.apk) |
 | Cinedubs | 1.0.52 | [Download APK](https://github.com/PranavGirjapurkar2612/android-portfolio/releases/download/android-apps-2026-11-17/Cinedubs-1.0.52.apk) |
+| Airtel | 4.154.3 | [Download APK](https://github.com/PranavGirjapurkar2612/android-portfolio/releases/download/android-apps-2026-11-17/Airtel-4.154.3.apk) |
 
 ## Selected Android projects
 
